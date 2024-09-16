@@ -2,6 +2,7 @@ object electrodomestico{
 }
 
 object mueble {
+	
 }
 
 object comida {
