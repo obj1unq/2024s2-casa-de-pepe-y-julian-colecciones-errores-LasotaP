@@ -1,0 +1,14 @@
+import casa.*
+import cosas.*
+
+describe "cosas" {
+  test "test1" {
+    casaDePepeYJulian.comprar(cama)
+    casaDePepeYJulian.comprar(heladera)
+    casaDePepeYJulian.comprar(plancha)
+    assert.equals([heladera,plancha], casaDePepeYJulian.comprados(electrodomestico))
+  }
+  test "tes2" {
+    
+  }
+}
